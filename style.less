@@ -1,0 +1,79 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+div, p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+@cHair: rgb(116, 129, 131);
+@cFace: rgb(254, 246, 235);
+@cSkirt: rgb(164, 77, 71);
+
+.inner {
+	margin: 0 auto;
+}
+.row {
+	padding: 15px 15px;
+}
+#text {
+	width: 100%;
+	min-height: 100px;
+	resize: none;
+}
+canvas {
+	display: block;
+
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+
+	border: 1px solid #000;
+}
+header {
+	background: @cHair;
+	color: #fff;
+
+	h1 {
+		color: #fff;
+		text-align: center;
+	}
+	p {
+		font-weight: bold;
+		text-align: center;
+	}
+}
+.header2 {
+	text-align: center;
+	background: lighten(@cHair, 20);
+	border-bottom: 2px solid #111;
+}
+.textbar {
+	background: @cFace;
+}
+.toolbar {
+	background: @cFace;
+	text-align: center;
+	border-bottom: 2px solid #111;
+}
+.canvasrow {
+	border-bottom: 2px solid #111;
+}
+.sendbar {
+	background: lighten(@cSkirt, 20);
+
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+footer {
+	background: @cSkirt;
+
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+#btnUpdate {
+	font-size: 3em;
+}

@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>ずいずいジェネレーター</title>
-<!-- 	<link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.css">
- -->	<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>ずいずいジェネレーター</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-	<div class="outer">
-		<div class="inner">
-			<header class="row">
-				<h1>ずいずいジェネレーター</h1>
-				<p>ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾ｽﾞｲ</p>
-			</header>
-			<div class="header2 row">
-<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-			</div>
+    <div class="outer">
+        <div class="inner">
+            <header class="row">
+                <h1>ずいずいジェネレーター</h1>
+                <p>ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾ｽﾞｲ</p>
+            </header>
+            <div class="header2 row">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+                <script>
+                    ! function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "https://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, "script", "twitter-wjs");
+                </script>
+            </div>
 
-			<div class="textbar row">
-				<textarea id="text">童貞なんて
-どうっていうことない
-www</textarea>
-			</div>
-			<div class="toolbar row">
-				<span>フォントサイズ</span>
-				<input type="number" id="size" value="30" />
-				<button class="btn btn-primary" id="btnUpdate">Go!</button>
-			</div>
+            <div class="textbar row">
+                <textarea id="text">童貞なんて どうっていうことない www
+                </textarea>
+            </div>
+            <div class="toolbar row">
+                <span>フォントサイズ</span>
+                <input type="number" id="size" value="30" />
+                <button class="btn btn-primary" id="btnUpdate">Go!</button>
+            </div>
 
-			<div class="canvasrow row">
-				<canvas width="600" height="800"></canvas>
-			</div>
+            <div class="canvasrow row">
+                <canvas width="600" height="800"></canvas>
+            </div>
 
-			<nav class="sendbar row">
-			素材提供: <a href="https://twitter.com/renkonan">ななてるさん(@renkonan)</a> &nbsp; <a href="https://twitter.com/renkonan/status/504127183896719360">(該当ツイート)</a>
-			</nav>
-			<footer class="row">
-			copyright 2014 <a href="https://twitter.com/mr_temperman">@mr_temperman</a>
-			</footer>
-		</div>
-	</div>
+            <nav class="sendbar row">
+                素材提供: <a href="https://twitter.com/renkonan">ななてるさん(@renkonan)</a> &nbsp; <a href="https://twitter.com/renkonan/status/504127183896719360">(該当ツイート)</a>
+            </nav>
+            <footer class="row">
+                copyright 2014 <a href="https://twitter.com/mr_temperman">@mr_temperman</a>
+            </footer>
+        </div>
+    </div>
 
-	<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
